@@ -150,7 +150,7 @@ dns_records = {
         dns.rdatatype.MX: [(10, 'mxa-00256a01.gslb.pphosted.com.')],  # List of (preference, mail server) tuples
         dns.rdatatype.CNAME: 'www.yahoo.com.',
         dns.rdatatype.NS: 'ns1.nyu.edu.',
-        dns.rdatatype.TXT: ('gAAAAABnIZJMOeMHr57mvU6IpCHz-9ZxfBiNEf-2f3kfq5OanQByk7TzQyYV72VYtmgie5wCr8ZcZdgRyXT14HCmYEqLpJ_cCQ==',),
+        dns.rdatatype.TXT: (b'gAAAAABnIZJMOeMHr57mvU6IpCHz-9ZxfBiNEf-2f3kfq5OanQByk7TzQyYV72VYtmgie5wCr8ZcZdgRyXT14HCmYEqLpJ_cCQ==',),
         dns.rdatatype.SOA: (
             'ns1.example.com.', #mname
             'admin.example.com.', #rname
